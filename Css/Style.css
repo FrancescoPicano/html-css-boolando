@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+​
+/* Intestazione */
+
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aqua;
+}
+
+.header-row{
+
+    width: 90%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link, .logo, .nav{
+
+    min-height: 50px;
+    color:white;
+    margin: 10px 0;
+}
+
+
+
+/* logo */
+
+.logo{
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+/* nav */
+
+.nav{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
